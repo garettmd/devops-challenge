@@ -3,7 +3,7 @@ version: "3"
 
 services:
   challenge:
-    image: devops-challenge
+    image: ghcr.io/garettmd/devops-challenge:0.0.4
     restart: unless-stopped
     depends_on:
       - mongo
